@@ -1,0 +1,121 @@
+.ad-paris-dons-wrapper {
+  container-type: inline-size;
+}
+.ad-paris-dons-wrapper .ad-paris-dons {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  grid-gap: 28px !important;
+  grid-auto-rows: minmax(168px, auto) !important;
+}
+@container (max-width: 550px) {
+  .ad-paris-dons-wrapper .ad-paris-dons {
+    display: flex !important;
+    flex-direction: column !important;
+    grid-gap: 14px !important;
+  }
+}
+.ad-paris-dons-wrapper .ad-paris-dons .module {
+  display: flex !important;
+  flex-direction: column !important;
+  background: #cccccc !important;
+  padding: 0 !important;
+}
+.ad-paris-dons-wrapper .ad-paris-dons .module .title {
+  background: #aaaaaa !important;
+  color: #ffffff !important;
+  text-align: center !important;
+  padding: 10px !important;
+  font-weight: bold !important;
+  font-size: 19px !important;
+}
+@container (max-width: 550px) {
+  .ad-paris-dons-wrapper .ad-paris-dons .module .title {
+    font-size: 16px !important;
+  }
+}
+.ad-paris-dons-wrapper .ad-paris-dons .module .content {
+  display: flex !important;
+  flex: 1 !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  height: 100% !important;
+  justify-content: space-between !important;
+  padding: 20px 10px !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-blend-mode: darken !important;
+}
+.ad-paris-dons-wrapper .ad-paris-dons .module .content .moreLink {
+  text-align: center !important;
+  display: block !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  color: #fff !important;
+}
+@container (max-width: 550px) {
+  .ad-paris-dons-wrapper .ad-paris-dons .module .content .moreLink {
+    font-size: 14px !important;
+    margin-bottom: 5px !important;
+  }
+}
+.ad-paris-dons-wrapper .ad-paris-dons .module .content .button {
+  text-align: center !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  color: #fff !important;
+  padding: 7px 15px !important;
+  background: #000 !important;
+  border: none !important;
+  outline: none !important;
+  border-radius: 4px !important;
+}
+@container (max-width: 550px) {
+  .ad-paris-dons-wrapper .ad-paris-dons .module .content .button {
+    padding: 4px 15px !important;
+    font-size: 14px !important;
+  }
+}
+.ad-paris-dons-wrapper .ad-paris-dons .module .content .buttonList {
+  padding: 0 !important;
+  margin: 0 !important;
+  list-style: none !important;
+}
+.ad-paris-dons-wrapper .ad-paris-dons .module .content .buttonList li {
+  display: inline-block !important;
+  margin: 5px !important;
+}
+.ad-paris-dons-wrapper .ad-paris-dons .module .content .buttonList li a {
+  display: block !important;
+  color: #000 !important;
+  background-color: #f8f9fa !important;
+  border: none !important;
+  font-size: 13px !important;
+  outline: none !important;
+  border-radius: 4px !important;
+  font-weight: bold !important;
+  padding: 7px 15px !important;
+}
+@container (max-width: 550px) {
+  .ad-paris-dons-wrapper .ad-paris-dons .module .content .buttonList li a {
+    padding: 3px 15px !important;
+    font-size: 12px !important;
+  }
+}
+.ad-paris-dons-wrapper .ad-paris-dons .module:nth-child(1) {
+  grid-area: 1/1/4/2 !important;
+}
+.ad-paris-dons-wrapper .ad-paris-dons .module:nth-child(2) {
+  grid-area: 1/2/2/3 !important;
+}
+.ad-paris-dons-wrapper .ad-paris-dons .module:nth-child(3) {
+  grid-area: 2/2/3/3 !important;
+}
+.ad-paris-dons-wrapper .ad-paris-dons .module:nth-child(4) {
+  grid-area: 3/2/4/3 !important;
+}
+.ad-paris-dons-wrapper .ad-paris-dons .module:nth-child(5) {
+  grid-area: 4/1/5/3 !important;
+}
+
+/*# sourceMappingURL=ad-paris-dons-frontoffice.css.map */
