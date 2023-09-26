@@ -9,6 +9,7 @@
   padding: 30px 0;
   text-align: center;
   font-weight: bold;
+  display: block !important;
   font-size: 33px;
   color: #484848;
   margin: 0 0 30px 0;
@@ -37,7 +38,7 @@
   max-width: 560px;
   margin: auto;
 }
-.settings_page_ad-paris-dons-options #wpbody .container form h2 {
+.settings_page_ad-paris-dons-options #wpbody .container h2 {
   background: #fff;
   padding: 10px 15px;
   font-size: 15px;
@@ -80,6 +81,31 @@
 }
 .settings_page_ad-paris-dons-options #wpbody .container form p.submit {
   text-align: right;
+}
+.settings_page_ad-paris-dons-options #wpbody .container .using {
+  background: white;
+  padding: 15px 20px;
+  margin: 0 0 20px 0;
+}
+.settings_page_ad-paris-dons-options #wpbody .container .using h2 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 10px 15px;
+  border-bottom: 1px solid #f3f3f3;
+}
+.settings_page_ad-paris-dons-options #wpbody .container .using h3 {
+  text-align: center;
+  font-size: 14px;
+}
+.settings_page_ad-paris-dons-options #wpbody .container .using .shortcode {
+  background: #525252;
+  color: #ffffff;
+  padding: 8px;
+  text-align: center;
+  font-size: 16px;
 }
 .settings_page_ad-paris-dons-options #wpbody .container .copy {
   text-align: center;

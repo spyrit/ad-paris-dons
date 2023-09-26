@@ -55,6 +55,11 @@ class AdParisDonsSettingsPage
                     ?>
                     <?php submit_button(); ?>
                 </form>
+                <h2>Comment l'utiliser ?</h2>
+                <div class="using">
+                    <h3>Insérez le code court suivant dans votre page ou article :</h3>
+                    <p class="shortcode">[ad-paris-dons-shortcode]</p>
+                </div>
                 <form method="POST" class="force-cache">
                     <h2>Récupération des données</h2>
                     <div class="content">
