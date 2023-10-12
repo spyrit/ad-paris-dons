@@ -14,13 +14,13 @@
     grid-gap: 14px !important;
   }
 }
-.ad-paris-dons-wrapper .ad-paris-dons .module {
+.ad-paris-dons-wrapper .ad-paris-dons .module-ad-paris-dons {
   display: flex !important;
   flex-direction: column !important;
   background: #cccccc !important;
   padding: 0 !important;
 }
-.ad-paris-dons-wrapper .ad-paris-dons .module .title {
+.ad-paris-dons-wrapper .ad-paris-dons .module-ad-paris-dons .title-ad-paris-dons {
   background: #aaaaaa !important;
   color: #ffffff !important;
   text-align: center !important;
@@ -29,11 +29,11 @@
   font-size: 19px !important;
 }
 @container (max-width: 550px) {
-  .ad-paris-dons-wrapper .ad-paris-dons .module .title {
+  .ad-paris-dons-wrapper .ad-paris-dons .module-ad-paris-dons .title-ad-paris-dons {
     font-size: 16px !important;
   }
 }
-.ad-paris-dons-wrapper .ad-paris-dons .module .content {
+.ad-paris-dons-wrapper .ad-paris-dons .module-ad-paris-dons .content-ad-paris-dons {
   display: flex !important;
   flex: 1 !important;
   flex-direction: column !important;
@@ -46,7 +46,7 @@
   background-position: center center !important;
   background-blend-mode: darken !important;
 }
-.ad-paris-dons-wrapper .ad-paris-dons .module .content .moreLink {
+.ad-paris-dons-wrapper .ad-paris-dons .module-ad-paris-dons .content-ad-paris-dons .moreLink-ad-paris-dons {
   text-align: center !important;
   display: block !important;
   font-size: 16px !important;
@@ -55,12 +55,12 @@
   color: #fff !important;
 }
 @container (max-width: 550px) {
-  .ad-paris-dons-wrapper .ad-paris-dons .module .content .moreLink {
+  .ad-paris-dons-wrapper .ad-paris-dons .module-ad-paris-dons .content-ad-paris-dons .moreLink-ad-paris-dons {
     font-size: 14px !important;
     margin-bottom: 5px !important;
   }
 }
-.ad-paris-dons-wrapper .ad-paris-dons .module .content .button {
+.ad-paris-dons-wrapper .ad-paris-dons .module-ad-paris-dons .content-ad-paris-dons .button-ad-paris-dons {
   text-align: center !important;
   font-size: 16px !important;
   font-weight: bold !important;
@@ -73,21 +73,21 @@
   border-radius: 4px !important;
 }
 @container (max-width: 550px) {
-  .ad-paris-dons-wrapper .ad-paris-dons .module .content .button {
+  .ad-paris-dons-wrapper .ad-paris-dons .module-ad-paris-dons .content-ad-paris-dons .button-ad-paris-dons {
     padding: 4px 15px !important;
     font-size: 14px !important;
   }
 }
-.ad-paris-dons-wrapper .ad-paris-dons .module .content .buttonList {
+.ad-paris-dons-wrapper .ad-paris-dons .module-ad-paris-dons .content-ad-paris-dons .buttonList-ad-paris-dons {
   padding: 0 !important;
   margin: 0 !important;
   list-style: none !important;
 }
-.ad-paris-dons-wrapper .ad-paris-dons .module .content .buttonList li {
+.ad-paris-dons-wrapper .ad-paris-dons .module-ad-paris-dons .content-ad-paris-dons .buttonList-ad-paris-dons li {
   display: inline-block !important;
   margin: 5px !important;
 }
-.ad-paris-dons-wrapper .ad-paris-dons .module .content .buttonList li a {
+.ad-paris-dons-wrapper .ad-paris-dons .module-ad-paris-dons .content-ad-paris-dons .buttonList-ad-paris-dons li a {
   display: block !important;
   color: #000 !important;
   background-color: #f8f9fa !important;
@@ -100,24 +100,24 @@
   padding: 7px 15px !important;
 }
 @container (max-width: 550px) {
-  .ad-paris-dons-wrapper .ad-paris-dons .module .content .buttonList li a {
+  .ad-paris-dons-wrapper .ad-paris-dons .module-ad-paris-dons .content-ad-paris-dons .buttonList-ad-paris-dons li a {
     padding: 3px 15px !important;
     font-size: 12px !important;
   }
 }
-.ad-paris-dons-wrapper .ad-paris-dons .module:nth-child(1) {
+.ad-paris-dons-wrapper .ad-paris-dons .module-ad-paris-dons:nth-child(1) {
   grid-area: 1/1/4/2 !important;
 }
-.ad-paris-dons-wrapper .ad-paris-dons .module:nth-child(2) {
+.ad-paris-dons-wrapper .ad-paris-dons .module-ad-paris-dons:nth-child(2) {
   grid-area: 1/2/2/3 !important;
 }
-.ad-paris-dons-wrapper .ad-paris-dons .module:nth-child(3) {
+.ad-paris-dons-wrapper .ad-paris-dons .module-ad-paris-dons:nth-child(3) {
   grid-area: 2/2/3/3 !important;
 }
-.ad-paris-dons-wrapper .ad-paris-dons .module:nth-child(4) {
+.ad-paris-dons-wrapper .ad-paris-dons .module-ad-paris-dons:nth-child(4) {
   grid-area: 3/2/4/3 !important;
 }
-.ad-paris-dons-wrapper .ad-paris-dons .module:nth-child(5) {
+.ad-paris-dons-wrapper .ad-paris-dons .module-ad-paris-dons:nth-child(5) {
   grid-area: 4/1/5/3 !important;
 }
 

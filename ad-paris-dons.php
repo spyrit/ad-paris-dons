@@ -4,10 +4,10 @@ Plugin Name: AD Paris - Dons
 Description: Une extension qui permet d'afficher un ensemble de blocs redirigeant vers des pages de dons.
 Author: SPYRIT
 Author URI: http://www.spyrit.net
-Version: 0.2.0
+Version: 0.2.1
 */
 
-const AD_PARIS_DONS_VERSION = "0.2.0";
+const AD_PARIS_DONS_VERSION = "0.2.1";
 const AD_PARIS_DONS_REMOTE_INFO_URL = "https://raw.githubusercontent.com/spyrit/ad-paris-dons/master/info.json";
 const AD_PARIS_DONS_API_URL = "https://plugindenier.dioceseparis.fr/plugindenier.json";
 const AD_PARIS_DONS_TRANSIENT_NAME = "ad_paris_dons_data";

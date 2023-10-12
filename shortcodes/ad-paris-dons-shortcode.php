@@ -9,13 +9,13 @@ function ad_paris_dons_shortcode()
             <div class="ad-paris-dons-wrapper">
                 <div class="ad-paris-dons">
                     <?php foreach ($modules['results'] as $module): ?>
-                        <div class="module">
-                            <div class="title"
+                        <div class="module-ad-paris-dons">
+                            <div class="title-ad-paris-dons"
                                  style="background-color: <?php echo $module['backgroundColor'] ?> !important;color: <?php echo $module['textColor']; ?> !important;"
                             ><?php echo $module['title'] ?></div>
-                            <div class="content" style="background-image: url('<?php echo $module['image'] ?>') !important;background-color:<?php echo $module['backgroundColorImage'] ?> !important;">
+                            <div class="content-ad-paris-dons" style="background-image: url('<?php echo $module['image'] ?>') !important;background-color:<?php echo $module['backgroundColorImage'] ?> !important;">
                                 <?php if ($module['moreLabel'] && $module['moreLink']): ?>
-                                    <a href="<?php echo $helper->add_url_param($module['moreLink']) ?>" title="Accéder à la page : <?php echo $module['moreLabel']; ?>" class="moreLink"
+                                    <a href="<?php echo $helper->add_url_param($module['moreLink']) ?>" title="Accéder à la page : <?php echo $module['moreLabel']; ?>" class="moreLink-ad-paris-dons"
                                        style="color: <?php echo $module['textColor']; ?> !important;"
                                     >
                                         <?php echo $module['moreLabel']; ?>
@@ -24,13 +24,13 @@ function ad_paris_dons_shortcode()
                                 <?php if ($module['buttonLabel'] && $module['buttonLink']): ?>
                                     <a href="<?php echo $helper->add_url_param($module['buttonLink']) ?>" title="Accéder à la page : <?php echo $module['buttonLabel']; ?>"
                                        style="background-color: <?php echo $module['backgroundColor'] ?> !important;color: <?php echo $module['textColor']; ?> !important;"
-                                       class="button"
+                                       class="button-ad-paris-dons"
                                     >
                                         <?php echo $module['buttonLabel']; ?>
                                     </a>
                                 <?php endif; ?>
                                 <?php if ($module['buttonList'] && count($module['buttonList']) > 0): ?>
-                                    <ul class="buttonList">
+                                    <ul class="buttonList-ad-paris-dons">
                                         <?php foreach ($module['buttonList'] as $button): ?>
                                             <?php if ($button['label'] && $button['link']): ?>
                                                 <li>

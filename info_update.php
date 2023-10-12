@@ -44,8 +44,8 @@ function ad_paris_dons_plugin_info($res, $action, $args)
         ];
 
         $res->banners = [
-            'low' => plugins_url('/assets/img/spyrit-essentials-banner-772x250.png', __FILE__),
-            'high' => plugins_url('/assets/img/spyrit-essentials-banner-1544x500.png', __FILE__)
+            'low' => plugins_url('/assets/img/ad-paris-dons-banner-772x250.png', __FILE__),
+            'high' => plugins_url('/assets/img/ad-paris-dons-banner-1544x500.png', __FILE__)
         ];
         return $res;
     }
