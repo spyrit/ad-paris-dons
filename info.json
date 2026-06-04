@@ -1,17 +1,17 @@
 {
   "name" : "AD Paris Dons",
   "slug" : "ad-paris-dons-updater",
-  "download_url" : "https://code.spyrit.net/wordpress/plugins/ad-paris-dons/0.2.1/ad-paris-dons.zip",
-  "version" : "0.2.1",
+  "download_url" : "https://code.spyrit.net/wordpress/plugins/ad-paris-dons/0.2.2/ad-paris-dons.zip",
+  "version" : "0.2.2",
   "requires" : "4.0",
-  "tested" : "6.3",
-  "last_updated" : "2023-10-10 12:00:00",
+  "tested" : "6.9",
+  "last_updated" : "2026-06-04 12:00:00",
   "upgrade_notice" : "Une mise à jour de l'extension est disponible.",
   "author" : "SPYRIT",
   "author_homepage" : "https://www.spyrit.net",
   "sections" : {
     "description" : "Une extension qui permet d'afficher un ensemble de blocs redirigeant vers des pages de dons.",
     "installation" : "Téléversez l'extension sur votre site Wordpress, activez la et celle-ci sera fonctionnelle.",
-    "changelog" : "<h4>0.2.1</h4><ul><li>Correction d'un bug d'affichage sur certains sites</li></ul><h4>0.2.0</h4><ul><li>Changement du système de récupération (API)</li><li>Ajout du shortcode dans le backoffice</li></ul><h4>0.1.0</h4><ul><li>Mise en place de l'extension</li></ul>"
+    "changelog" : "<h4>0.2.2</h4><ul><li>Compatibilité PHP 8.3 (typage, gestion des erreurs API, sécurisation des sorties)</li><li>Adaptation de l'extension aux versions plus récentes de WordPress</li></ul><h4>0.2.1</h4><ul><li>Correction d'un bug d'affichage sur certains sites</li></ul><h4>0.2.0</h4><ul><li>Changement du système de récupération (API)</li><li>Ajout du shortcode dans le backoffice</li></ul><h4>0.1.0</h4><ul><li>Mise en place de l'extension</li></ul>"
   }
 }
