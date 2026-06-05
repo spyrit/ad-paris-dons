@@ -75,6 +75,7 @@ function ad_paris_dons_plugin_info(mixed $res, string $action, object $args): mi
     $res->version = $info->version ?? '';
     $res->tested = $info->tested ?? '';
     $res->requires = $info->requires ?? '';
+    $res->requires_php = $info->requires_php ?? '';
     $res->download_link = $info->download_url ?? '';
     $res->trunk = $info->download_url ?? '';
     $res->last_updated = $info->last_updated ?? '';
@@ -94,9 +95,9 @@ function ad_paris_dons_plugin_info(mixed $res, string $action, object $args): mi
 
 add_filter('site_transient_update_plugins', 'ad_paris_dons_push_update');
 
-function ad_paris_dons_push_update(object $transient): object
+function ad_paris_dons_push_update(object|false $transient): object|false
 {
-    if (empty($transient->checked)) {
+    if (!is_object($transient) || empty($transient->checked)) {
         return $transient;
     }
 
@@ -115,6 +116,7 @@ function ad_paris_dons_push_update(object $transient): object
         $res->plugin = 'ad-paris-dons/ad-paris-dons.php';
         $res->new_version = (string) $info->version;
         $res->tested = (string) ($info->tested ?? '');
+        $res->requires_php = (string) ($info->requires_php ?? '');
         $res->package = (string) $info->download_url;
         $transient->response[$res->plugin] = $res;
     }

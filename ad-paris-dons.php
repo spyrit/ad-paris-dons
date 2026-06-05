@@ -5,6 +5,7 @@ Description: Une extension qui permet d'afficher un ensemble de blocs redirigean
 Author: SPYRIT
 Author URI: http://www.spyrit.net
 Version: 0.2.2
+Requires at least: 6.4
 Requires PHP: 8.3
 */
 
